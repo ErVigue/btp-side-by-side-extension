@@ -8,7 +8,7 @@ build-parameters:
   before-all:
     - builder: custom
       commands:
-        - mbt build -t gen --mtar mta.tar       
+        - npx cds build --production
 modules:
   - name: risk-management-srv
     type: nodejs
