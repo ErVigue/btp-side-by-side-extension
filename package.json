@@ -18,11 +18,14 @@
   "devDependencies": {
     "@sap/cds-dk": "^7",
     "@sap/ux-specification": "^1.108.15",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
     "sqlite3": "^5.0.4"
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-risks": "cds watch --open risks/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-risks": "cds watch --open risks/webapp/index.html?sap-ui-xx-viewCache=false",
+    "test": "mocha"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
