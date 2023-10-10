@@ -8,8 +8,8 @@ build-parameters:
   before-all:
     - builder: custom
       commands:
-        - npm install
-        - npm run build:cf
+        - npm intall --production
+        - npx cds build --production
 modules:
   - name: risk-management-srv
     type: nodejs
