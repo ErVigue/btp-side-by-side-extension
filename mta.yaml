@@ -4,12 +4,6 @@ version: 2.0.0
 description: "Template for the Learning Journey Building side-by-side extensions on SAP BTP"
 parameters:
   enable-parallel-deployments: true
-build-parameters:
-  before-all:
-    - builder: custom
-      commands:
-      - npm install
-      - cds build/all
 
 modules:
   - name: risk-management-srv
