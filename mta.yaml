@@ -8,15 +8,13 @@ build-parameters:
   before-all:
     - builder: custom
       commands:
-        - mbt build
+      - npm install
+      - cds build/all
+
 modules:
   - name: risk-management-srv
     type: nodejs
     path: gen/srv
-    parameters:
-      buildpack: nodejs_buildpack
-    build-parameters:
-      builder: npm
     provides:
       - name: srv-api # required by consumers of CAP services (e.g. approuter)
         properties:
