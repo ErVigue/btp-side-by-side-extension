@@ -1,12 +1,12 @@
 {
   "name": "risk-management",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Template for the Learning Journey Building side-by-side extensions on SAP BTP",
   "author": "m.haug@sap.com",
   "license": "SAP SAMPLE CODE LICENSE",
   "repository": "https://github.com/SAP-samples/sap-learning-extension-suite",
   "engines": {
-    "node": ">=14"
+    "node": "^18.14.2"
   },
   "private": true,
   "dependencies": {
