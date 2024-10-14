@@ -7,6 +7,6 @@ const first = require('../first');
 
 describe('First', function (){
   it('first should return a+b', function(){
-    assert.equal(first(2,2), 4)
+    assert.equal(first(2,2), 5)
   })
 })
